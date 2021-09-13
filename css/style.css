@@ -48,7 +48,7 @@ body {
 
 .cover {
 	height: 400px;
-	background-image: url("img/backgroung_image.jpg");
+	background-image: url("../img/backgroung_image.jpg");
 	background-size: cover;
 	background-repeat: no-repeat;
 	background-position: center center;
