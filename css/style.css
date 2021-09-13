@@ -1,4 +1,4 @@
-@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700&display=swap");
 
 * {
 	box-sizing: border-box;
@@ -46,7 +46,7 @@ body {
 	color: #5b359d;
 }
 
-.cover {
+.banner {
 	height: 400px;
 	background-image: url("../img/backgroung_image.jpg");
 	background-size: cover;
@@ -60,11 +60,11 @@ body {
 	color: #fff;
 }
 
-.cover__image {
+.banner__image {
 	width: 200px;
 }
 
-.cover__title {
+.banner__title {
 	margin-top: 1rem;
 	font-size: 2rem;
 }
@@ -114,19 +114,19 @@ body {
 	padding: 2rem 0 1rem 0;
 }
 
-.footer__title {
+.footer__copyright {
 	font-size: 0.75rem;
 	text-align: center;
 	font-weight: bold;
 	margin-bottom: 0.5rem;
 }
 
-.icons {
+.social-networks {
 	text-align: center;
 	font-size: 1.75rem;
 }
 
-.icon {
+.social-network-link i {
 	color: #bdaed8;
 	padding: 0 2rem;
 }
