@@ -6,9 +6,20 @@
 	padding: 0;
 }
 
+h1,
+h2,
+h3 {
+	font-weight: unset;
+}
+
+a {
+	text-decoration: none;
+	color: #000;
+}
+
 body {
 	font-family: "Roboto", sans-serif;
-	color: black;
+	color: #000;
 	height: 100vh;
 }
 
@@ -31,13 +42,8 @@ body {
 	padding: 0 0.5rem;
 }
 
-.nav__link a {
-	text-decoration: none;
-	color: black;
-}
-
 .nav__link a:hover {
-	color: blueviolet;
+	color: #5b359d;
 }
 
 .cover {
@@ -51,7 +57,7 @@ body {
 	justify-content: center;
 	flex-direction: column;
 	text-align: center;
-	color: white;
+	color: #fff;
 }
 
 .cover__image {
@@ -60,7 +66,6 @@ body {
 
 .cover__title {
 	margin-top: 1rem;
-	font-weight: unset;
 	font-size: 2rem;
 }
 
@@ -85,7 +90,6 @@ body {
 }
 
 .card__title {
-	font-weight: unset;
 	text-transform: uppercase;
 	margin: 1rem 0;
 }
@@ -102,4 +106,52 @@ body {
 .quote__text {
 	font-size: 1.25rem;
 	margin-bottom: 2rem;
+}
+
+.footer {
+	color: #fff;
+	background-color: #5b359d;
+	padding: 2rem 0 1rem 0;
+}
+
+.footer__title {
+	font-size: 0.75rem;
+	text-align: center;
+	font-weight: bold;
+	margin-bottom: 0.5rem;
+}
+
+.icons {
+	text-align: center;
+	font-size: 1.75rem;
+}
+
+.icon {
+	color: #bdaed8;
+	padding: 0 2rem;
+}
+
+.infos {
+	display: flex;
+	justify-content: space-around;
+	padding-top: 2rem;
+}
+
+.info__title {
+	color: #bdaed8;
+	font-size: 1rem;
+	margin-bottom: 1rem;
+}
+
+.info ul,
+.info__text {
+	padding-left: 40px;
+}
+
+.info__link a {
+	color: #fff;
+}
+
+.info__link a:hover {
+	color: #bdaed8;
 }
