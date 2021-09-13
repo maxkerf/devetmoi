@@ -64,17 +64,17 @@ body {
 	font-size: 2rem;
 }
 
-.no-idea {
+.content {
 	text-align: center;
 	padding: 3rem 150px;
 }
 
-.no-idea__text {
+.content__text {
 	font-size: 1.5rem;
 	color: #575757;
 }
 
-.carousel {
+.cards {
 	display: flex;
 	margin: 3rem 0;
 }
