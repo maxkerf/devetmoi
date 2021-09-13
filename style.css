@@ -9,6 +9,7 @@
 body {
 	font-family: "Roboto", sans-serif;
 	color: black;
+	height: 100vh;
 }
 
 .header {
@@ -25,19 +26,80 @@ body {
 	align-items: center;
 }
 
-.nav__list-item {
+.nav__link {
 	display: inline-block;
 	padding: 0 0.5rem;
 }
 
-.nav__link {
+.nav__link a {
 	text-decoration: none;
-}
-
-.nav__link:visited {
 	color: black;
 }
 
-.nav__link:hover {
+.nav__link a:hover {
 	color: blueviolet;
+}
+
+.cover {
+	height: 400px;
+	background-image: url("img/backgroung_image.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center center;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+	text-align: center;
+	color: white;
+}
+
+.cover__image {
+	width: 200px;
+}
+
+.cover__title {
+	margin-top: 1rem;
+	font-weight: unset;
+	font-size: 2rem;
+}
+
+.no-idea {
+	text-align: center;
+	padding: 3rem 150px;
+}
+
+.no-idea__text {
+	font-size: 1.5rem;
+	color: #575757;
+}
+
+.carousel {
+	display: flex;
+	margin: 3rem 0;
+}
+
+.card {
+	flex: 1;
+	padding: 0 1rem;
+}
+
+.card__title {
+	font-weight: unset;
+	text-transform: uppercase;
+	margin: 1rem 0;
+}
+
+.card__desc {
+	font-size: 0.75rem;
+}
+
+.quote {
+	color: #575757;
+	padding: 0 5rem;
+}
+
+.quote__text {
+	font-size: 1.25rem;
+	margin-bottom: 2rem;
 }
